@@ -1,0 +1,10 @@
+1. Planning
+    - Design a simple wire-frame
+    - Break down the wire-frame into components
+    A. Components
+        - Which components will hold state?
+        - What props will each component need (if any)?
+        - Where will I fetch my data?
+2. File Structure
+    - Create a components folder
+    - Create files for each component and place them in the proper folder created from the step above

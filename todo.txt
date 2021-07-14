@@ -5,6 +5,13 @@
         - Which components will hold state?
         - What props will each component need (if any)?
         - Where will I fetch my data?
+
+    export default function Card(props){
+        const { title, date, url, explanation } = props;
+    }
+
+    <Card title={title} date={date} url={url} explanation={explanation} />
+
 2. File Structure
     - Create a components folder
-    - Create files for each component and place them in the proper folder created from the step above
+    - Create files for each component and place them in the components folder created in the step above

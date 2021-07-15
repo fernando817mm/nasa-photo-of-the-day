@@ -6,10 +6,6 @@ import Input from "./components/Input";
 
 function App() {
 
-  document.addEventListener('form', () => {
-
-  })
-
   const [data, setData] = useState([]);
 
   useEffect(() => {

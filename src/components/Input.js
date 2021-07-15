@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import Option from './Option';
 
 const Input = props => {
     return (
@@ -6,12 +7,9 @@ const Input = props => {
             <label htmlFor='apod'>How many APOD would you like? (1-50)</label>
             <form type='number' id='apod' name='apod' min='1' max='50'>
                 <select>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    <Option />
                 </select>
+                <input type='submit' value='Submit'></input>
             </form>
         </div>
     )

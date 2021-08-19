@@ -15,8 +15,7 @@ function App() {
     const sel = document.querySelector('select');
     const num = sel.value;
     setNumber(num);
-  })
-
+  });
 
   useEffect(() => {
     axios.get(`https://api.nasa.gov/planetary/apod?api_key=CFj2RQgRwOB6Te8ybChOawpH2BmRkAHdBzHAGJGR&count=${number}`)
@@ -24,7 +23,7 @@ function App() {
         setData(res.data);
       })
       .catch(err => alert(err));
-  }, [number])
+  }, [number]);
 
   return (
     <div className="App">

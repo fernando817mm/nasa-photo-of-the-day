@@ -57,13 +57,13 @@ const Div = styled.div`
 `
 
 export default function Card(props){
-    const { title, date, url, explanation } = props;
-    return (
+  const { title, date, url, explanation } = props;
+  return (
         <Div>
             <h2>{title}</h2>
             <p>{date}</p>
             <img src={url} alt='' />
             <p>{explanation}</p>
         </Div>
-    )
+    );
 }
